@@ -1,5 +1,5 @@
-FROM campsych/concerto-platform:test
-MAINTAINER Przemyslaw Lis <przemek@concertoplatform.com>
+FROM tasgm/concerto-platform:test
+MAINTAINER tasgm <tasgm@tasgm.org>
 
 RUN apt-get update -y \
  && apt-get install composer -y
